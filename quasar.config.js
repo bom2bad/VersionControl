@@ -216,4 +216,11 @@ export default defineConfig((ctx) => {
       extraScripts: []
     }
   }
+
+    framework: {
+      plugins: [
+        'Notify'
+      ]
+    }
+
 })
